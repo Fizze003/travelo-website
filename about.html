@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travelo</title>
+
+    <!-- CSS link -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/bootstrap-5.3.3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
+    <!-- Fontawesome link -->
+    <script src="https://kit.fontawesome.com/57c3f946da.js" crossorigin="anonymous"></script>
+
+    <!-- Font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Header start -->
+    <header>
+        <div class="header-area d-flex justify-content-between align-items-center">
+            <div class="container-fluid">
+                <div class="row  d-flex align-items-center justify-content-between">
+                    <div class="col-2">
+                        <div class="logo">
+                            <a href="index.html">
+                                <img src="./assets/images/logo.png" alt="header-logo">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-5">
+                        <div class="menu">
+                            <div class="nav">
+                                <ul>
+                                    <li><a href="index.html">Home</a></li>
+                                    <li><a href="about.html">About</a></li>
+                                    <li><a href="destination.html">Destination</a></li>
+                                    <li><a href="pages.html">Pages</a></li>
+                                    <li><a href="contact.html">Contact</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="social">
+                            <div class="number">
+                                <p> <i class="fa fa-phone"></i> 10(256)-928 256</p>
+                            </div>
+                            <div class="social-link">
+                                <ul>
+                                    <li><a href="#"> <i class="fa fa-instagram"></i> </a></li>
+                                    <li><a href="#"> <i class="fa fa-linkedin"></i> </a></li>
+                                    <li><a href="#"> <i class="fa fa-facebook"></i> </a></li>
+                                    <li><a href="#"> <i class="fa fa-google-plus"></i> </a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-1">
+                        <div class="display-light">
+                            <button id="button">
+                                <i class="fa-solid fa-moon"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-1">
+                        <button class="register-btn" onclick="openPopup()">Login</button>
+                        <div class="popup" id="registerPopup">
+                            <div class="popup-content">
+                                <button class="close-btn" onclick="closePopup()">&times;</button>
+                                <h2>Login Form</h2>
+                                <p>Login here using email & password</p>
+                                <form>
+                                    <div class="form-group">
+                                        <i class="fa-solid fa-user"></i>
+                                        <input type="email" name="" id="" placeholder="Enter email" required>
+                                    </div>
+                                    <div class="form-group">
+                                        <i class="fa-solid fa-key"></i>
+                                        <input type="password" name="" id="" placeholder="Password" required>
+                                    </div>
+                                    <div class="forget">
+                                        <input type="checkbox" name="" id="" required>
+                                        <label for="">Remember me</label>
+                                        <a href="#">Forget Password ?</a>
+                                    </div>
+                                    <button type="submit" class="popup-btn">Login</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Header end -->
+
+    <main>
+        <!-- Banner start -->
+        <section class="banner about-banner">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="content text-center">
+                            <h2>About us</h2>
+                            <p>Pixel perfect design with awesome contents</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Banner end -->
+
+        <!-- About story start -->
+        <div class="about-story">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="story-info">
+                            <div class="heading">
+                                <h3>Our story</h3>
+                            </div>
+                            <div class="info">
+                                <p>Consulting represents success at realizing the company is going in the wrong
+                                    direction. The only time the company fails is when it is not possible to do a
+                                    turnaround anymore. We help companies pivot into more profitable directions where
+                                    they can expand and grow. It is inevitable that companies will end up making a few
+                                    mistakes; we help them correct these mistakes.</p>
+                                <p>Consulting represents success at realizing the company is going in the wrong
+                                    direction. The only time the company fails is when it is not possible to do a
+                                    turnaround anymore. We help companies pivot into more profitable directions where
+                                    they can expand and grow. It is inevitable that companies will end up making a few
+                                    mistakes; we help them correct these mistakes.</p>
+                            </div>
+                            <div class="story-img">
+                                <div class="row">
+                                    <div class="col-5">
+                                        <img src="./assets/images/about/1.png" alt="">
+                                    </div>
+                                    <div class="col-6">
+                                        <img src="./assets/images/about/2.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="counter">
+                                <div class="row">
+                                    <div class="col-4">
+                                        <div class="single-counter text-center">
+                                            <h3 class="counter" id="counter">378</h3>
+                                            <p>Tour has done successfully</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-4">
+                                        <div class="single-counter text-center">
+                                            <h3 class="counter" id="counter2">30</h3>
+                                            <p>Yearly tour arrange</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-4">
+                                        <div class="single-counter text-center">
+                                            <h3 class="counter" id="counter3">2263</h3>
+                                            <p>Happy Clients</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- About story end -->
+
+        <!-- Video area start -->
+        <div class="video">
+            <div class="container">
+                <div class="row d-flex align-items-center justify-content-center">
+                    <div class="col-12">
+                        <div class="video-text">
+                            <h3>Enjoy Video</h3>
+                        </div>
+                        <div class="video-icon">
+                            <a href="https://www.youtube.com/watch?v=f59dDEk57i0" target="_blank"><i
+                                    class="fa fa-play"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Video area end -->
+
+        <!-- Travel variation start -->
+        <div class="travel-variation">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-4">
+                        <div class="single-travel">
+                            <div class="travel-icon">
+                                <img src="./assets/images/svg_icon/1.svg" alt="icon">
+                            </div>
+                            <div class="travel-info">
+                                <h3>Comfortable Journe</h3>
+                                <p>A wonderful serenity has taken to the possession of my entire soul.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="single-travel">
+                            <div class="travel-icon">
+                                <img src="./assets/images/svg_icon/2.svg" alt="icon">
+                            </div>
+                            <div class="travel-info">
+                                <h3>Luxuries Hotel</h3>
+                                <p>A wonderful serenity has taken to the possession of my entire soul.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="single-travel">
+                            <div class="travel-icon">
+                                <img src="./assets/images/svg_icon/3.svg" alt="icon">
+                            </div>
+                            <div class="travel-info">
+                                <h3>Travel Guide</h3>
+                                <p>A wonderful serenity has taken to the possession of my entire soul.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Travel variation end -->
+
+        <!-- Recent trip start -->
+        <div class="recent-trip">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-6">
+                        <div class="section-title">
+                            <h1>Recent Trips</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-4">
+                        <div class="single-trip">
+                            <div class="trip-img">
+                                <img src="./assets/images/trip/1.png" alt="">
+                            </div>
+                            <div class="trip-info">
+                                <div class="date">
+                                    <span>Oct 12, 2019</span>
+                                </div>
+                                <h3>Journeys Are Best Measured In New Friends</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="single-trip">
+                            <div class="trip-img">
+                                <img src="./assets/images/trip/2.png" alt="">
+                            </div>
+                            <div class="trip-info">
+                                <div class="date">
+                                    <span>Oct 12, 2019</span>
+                                </div>
+                                <h3>Journeys Are Best Measured In New Friends</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="single-trip">
+                            <div class="trip-img">
+                                <img src="./assets/images/trip/3.png" alt="">
+                            </div>
+                            <div class="trip-info">
+                                <div class="date">
+                                    <span>Oct 12, 2019</span>
+                                </div>
+                                <h3>Journeys Are Best Measured In New Friends</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Recent trip end -->
+    </main>
+
+    <!-- Footer start -->
+    <footer>
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-4">
+                        <div class="single-column">
+                            <div class="footer-logo">
+                                <a href="index.html">
+                                    <img src="./assets/images/footer_logo.png" alt="logo">
+                                </a>
+                            </div>
+                            <div class="footer-info">
+                                <p>5th flora, 700/D kings road, green
+                                    <br>
+                                    lane New York-1782
+                                    <br>
+                                    +10 367 826 2567
+                                    <br>
+                                    contact@carpenter.com
+                                </p>
+                                <div class="social-links">
+                                    <ul>
+                                        <li><a href="">
+                                                <i class="fa-brands fa-facebook-f"></i>
+                                            </a></li>
+                                        <li><a href="">
+                                                <i class="fa-brands fa-twitter"></i>
+                                            </a></li>
+                                        <li><a href="">
+                                                <i class="fa fa-instagram"></i>
+                                            </a></li>
+                                        <li><a href="">
+                                                <i class="fa-brands fa-pinterest"></i>
+                                            </a></li>
+                                        <li><a href="">
+                                                <i class="fa fa-youtube-play"></i>
+                                            </a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <div class="single-column">
+                            <div class="footer-title">
+                                <h3>Company</h3>
+                            </div>
+                            <div class="links">
+                                <ul>
+                                    <li><a href="">Pricing</a></li>
+                                    <li><a href="">About</a></li>
+                                    <li><a href="">Gallery</a></li>
+                                    <li><a href="">Contact</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="single-column">
+                            <div class="footer-title">
+                                <h3>Popular Destination</h3>
+                            </div>
+                            <div class="double-links">
+                                <ul>
+                                    <li><a href="">Indonesia</a></li>
+                                    <li><a href="">India</a></li>
+                                    <li><a href="">Italy</a></li>
+                                    <li><a href="">Franch</a></li>
+                                    <li><a href="">Amrica</a></li>
+                                    <li><a href="">Switzerland</a></li>
+                                    <li><a href="">Canada</a></li>
+                                    <li><a href="">England</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="single-column">
+                            <div class="footer-title">
+                                <h3>Popular Destination</h3>
+                            </div>
+                            <div class="instagram">
+                                <div class="img">
+                                    <a href="">
+                                        <img src="./assets/images/instagram/1.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="img">
+                                    <a href="">
+                                        <img src="./assets/images/instagram/2.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="img">
+                                    <a href="">
+                                        <img src="./assets/images/instagram/3.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="img">
+                                    <a href="">
+                                        <img src="./assets/images/instagram/4.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="img">
+                                    <a href="">
+                                        <img src="./assets/images/instagram/5.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="img">
+                                    <a href="">
+                                        <img src="./assets/images/instagram/6.png" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="line "></div>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="copyright">
+                            <p>Copyright ©2025 All rights reserved | This template is made with
+                                <i class="fa-regular fa-heart"></i> by <span>Colorlib</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer end -->
+
+    <!-- Javascript link -->
+    <script src="./assets/js/main.js"></script>
+    <script src="./assets/css/bootstrap-5.3.3-dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>

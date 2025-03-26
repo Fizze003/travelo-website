@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Travelo</title>
+
+  <!-- CSS link -->
+  <link rel="stylesheet" href="./assets/css/style.css" />
+  <link rel="stylesheet" href="./assets/css/bootstrap-5.3.3-dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+  <!-- Fontawesome link -->
+  <script src="https://kit.fontawesome.com/57c3f946da.js" crossorigin="anonymous"></script>
+
+  <!-- Font link -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+    rel="stylesheet" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+  <!-- Header start -->
+  <header>
+    <div class="header-area d-flex justify-content-between align-items-center">
+      <div class="container-fluid">
+        <div class="row d-flex align-items-center justify-content-between">
+          <div class="col-2">
+            <div class="logo">
+              <a href="index.html">
+                <img src="./assets/images/logo.png" alt="header-logo" />
+              </a>
+            </div>
+          </div>
+          <div class="col-5">
+            <div class="menu">
+              <div class="nav">
+                <ul>
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="about.html">About</a></li>
+                  <li><a href="destination.html">Destination</a></li>
+                  <li><a href="pages.html">Pages</a></li>
+                  <li><a href="contact.html">Contact</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="social">
+              <div class="number">
+                <p><i class="fa fa-phone"></i> 10(256)-928 256</p>
+              </div>
+              <div class="social-link">
+                <ul>
+                  <li>
+                    <a href="#"> <i class="fa fa-instagram"></i> </a>
+                  </li>
+                  <li>
+                    <a href="#"> <i class="fa fa-linkedin"></i> </a>
+                  </li>
+                  <li>
+                    <a href="#"> <i class="fa fa-facebook"></i> </a>
+                  </li>
+                  <li>
+                    <a href="#"> <i class="fa fa-google-plus"></i> </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-1">
+            <div class="display-light">
+                <button id="button">
+                    <i class="fa-solid fa-moon"></i>
+                </button>
+            </div>
+        </div>
+          <div class="col-1">
+            <button class="register-btn" onclick="openPopup()">Login</button>
+            <div class="popup" id="registerPopup">
+                <div class="popup-content">
+                    <button class="close-btn" onclick="closePopup()">&times;</button>
+                    <h2>Login Form</h2>
+                    <p>Login here using email & password</p>
+                    <form>
+                        <div class="form-group">
+                            <i class="fa-solid fa-user"></i>
+                            <input type="email" name="" id="" placeholder="Enter email" required>
+                        </div>
+                        <div class="form-group">
+                            <i class="fa-solid fa-key"></i>
+                            <input type="password" name="" id="" placeholder="Password" required>
+                        </div>
+                        <div class="forget">
+                            <input type="checkbox" name="" id="" required>
+                            <label for="">Remember me</label>
+                            <a href="#">Forget Password ?</a>
+                        </div>
+                        <button type="submit" class="popup-btn">Login</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- Header end -->
+
+  <main>
+    <!-- Banner start -->
+    <section class="banner pages-banner">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="content text-center">
+              <h2>Saintmartine Iceland</h2>
+              <p>Pixel perfect design with awesome contents</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Banner end -->
+
+    <!-- Description start -->
+    <div class="description">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-8">
+            <div class="description-info">
+              <h3>Description</h3>
+              <p>
+                There are many variations of passages of Lorem Ipsum
+                available, but the majority have suffered alteration in some
+                form, by injected humour, or randomised words which don't look
+                even slightly believable. If you are going to use a passage of
+                Lorem Ipsum, you need to be sure there isn't anything
+                embarrassing.
+              </p>
+              <p>
+                Variations of passages of lorem Ipsum available, but the
+                majority have suffered alteration in some form, by injected
+                humour, or randomised words which don't look even slightly
+                believable. If you are going to use a passage of Lorem Ipsum,
+                you need to be sure there isn't anything embarrassing.
+              </p>
+              <div class="single-destination">
+                <h4>Day-01</h4>
+                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                  alteration in some form, by injected humour, or randomised words.</p>
+              </div>
+              <div class="single-destination">
+                <h4>Day-02</h4>
+                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                  alteration in some form, by injected humour, or randomised words.</p>
+              </div>
+              <div class="single-destination">
+                <h4>Day-03</h4>
+                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                  alteration in some form, by injected humour, or randomised words.</p>
+              </div>
+            </div>
+            <div class="line"></div>
+            <div class="contact-form">
+              <h3>Contact for join</h3>
+              <form action="">
+                <div class="row">
+                  <div class="col-6">
+                    <div class="single-input">
+                      <input type="text" placeholder="Your Name">
+                    </div>
+                  </div>
+                  <div class="col-6">
+                    <div class="single-input">
+                      <input type="number" placeholder="Phone no.">
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <div class="single-input">
+                      <textarea name="" rows="9" id="" placeholder="Message"></textarea>
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <div class="sumbit-btn">
+                      <button type="submit">submit</button>
+                    </div>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Description end -->
+
+    <!-- Subscribe start -->
+    <section class="subscribe">
+      <div class="container">
+        <div class="row justify-content-center align-items-center">
+          <div class="col-10">
+            <div class="row d-flex justify-content-center align-items-center">
+              <div class="col-5">
+                <div class="title">
+                  <h3>Subscribe Our Newsletter</h3>
+                  <p>Subscribe newsletter to get offers and about new places to discover.</p>
+                </div>
+              </div>
+              <div class="col-7">
+                <div class="mail-form d-flex justify-content-center align-items-center">
+                  <input type="email" placeholder="Your mail">
+                  <button type="submit" class="btn">Subscribe</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Subscribe end  -->
+
+    <!-- More Places start -->
+    <div class="popular-places">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-6">
+            <div class="section-title">
+              <h1>More Places</h1>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-4">
+            <div class="single-place">
+              <div class="place-img">
+                <img src="./assets/images/place/1.png" alt="">
+                <a href="" class="prise">%500</a>
+              </div>
+              <div class="place-info">
+                <div class="title">
+                  <h3>California</h3>
+                  <p>United State of America</p>
+                </div>
+                <div class="rating d-flex align-items-center justify-content-between">
+                  <span class="d-flex align-items-center justify-content-start">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <a href="">(20 Review)</a>
+                  </span>
+                  <div class="days">
+                    <i class="fa fa-clock-o"></i>
+                    <a href="">5 day</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="single-place">
+              <div class="place-img">
+                <img src="./assets/images/place/2.png" alt="">
+                <a href="" class="prise">%500</a>
+              </div>
+              <div class="place-info">
+                <div class="title">
+                  <h3>Korola Megna</h3>
+                  <p>United State of America</p>
+                </div>
+                <div class="rating d-flex align-items-center justify-content-between">
+                  <span class="d-flex align-items-center justify-content-start">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <a href="">(20 Review)</a>
+                  </span>
+                  <div class="days">
+                    <i class="fa fa-clock-o"></i>
+                    <a href="">5 day</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="single-place">
+              <div class="place-img">
+                <img src="./assets/images/place/3.png" alt="">
+                <a href="" class="prise">%500</a>
+              </div>
+              <div class="place-info">
+                <div class="title">
+                  <h3>London</h3>
+                  <p>United State of America</p>
+                </div>
+                <div class="rating d-flex align-items-center justify-content-between">
+                  <span class="d-flex align-items-center justify-content-start">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <a href="">(20 Review)</a>
+                  </span>
+                  <div class="days">
+                    <i class="fa fa-clock-o"></i>
+                    <a href="">5 day</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- More Places end -->
+  </main>
+
+  <!-- Footer start -->
+  <footer>
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+          <div class="col-4">
+            <div class="single-column">
+              <div class="footer-logo">
+                <a href="index.html">
+                  <img src="./assets/images/footer_logo.png" alt="logo" />
+                </a>
+              </div>
+              <div class="footer-info">
+                <p>
+                  5th flora, 700/D kings road, green
+                  <br />
+                  lane New York-1782
+                  <br />
+                  +10 367 826 2567
+                  <br />
+                  contact@carpenter.com
+                </p>
+                <div class="social-links">
+                  <ul>
+                    <li>
+                      <a href="">
+                        <i class="fa-brands fa-facebook-f"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="">
+                        <i class="fa-brands fa-twitter"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="">
+                        <i class="fa fa-instagram"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="">
+                        <i class="fa-brands fa-pinterest"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="">
+                        <i class="fa fa-youtube-play"></i>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-2">
+            <div class="single-column">
+              <div class="footer-title">
+                <h3>Company</h3>
+              </div>
+              <div class="links">
+                <ul>
+                  <li><a href="">Pricing</a></li>
+                  <li><a href="">About</a></li>
+                  <li><a href="">Gallery</a></li>
+                  <li><a href="">Contact</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="single-column">
+              <div class="footer-title">
+                <h3>Popular Destination</h3>
+              </div>
+              <div class="double-links">
+                <ul>
+                  <li><a href="">Indonesia</a></li>
+                  <li><a href="">India</a></li>
+                  <li><a href="">Italy</a></li>
+                  <li><a href="">Franch</a></li>
+                  <li><a href="">Amrica</a></li>
+                  <li><a href="">Switzerland</a></li>
+                  <li><a href="">Canada</a></li>
+                  <li><a href="">England</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="single-column">
+              <div class="footer-title">
+                <h3>Popular Destination</h3>
+              </div>
+              <div class="instagram">
+                <div class="img">
+                  <a href="">
+                    <img src="./assets/images/instagram/1.png" alt="" />
+                  </a>
+                </div>
+                <div class="img">
+                  <a href="">
+                    <img src="./assets/images/instagram/2.png" alt="" />
+                  </a>
+                </div>
+                <div class="img">
+                  <a href="">
+                    <img src="./assets/images/instagram/3.png" alt="" />
+                  </a>
+                </div>
+                <div class="img">
+                  <a href="">
+                    <img src="./assets/images/instagram/4.png" alt="" />
+                  </a>
+                </div>
+                <div class="img">
+                  <a href="">
+                    <img src="./assets/images/instagram/5.png" alt="" />
+                  </a>
+                </div>
+                <div class="img">
+                  <a href="">
+                    <img src="./assets/images/instagram/6.png" alt="" />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <div class="line"></div>
+        <div class="row">
+          <div class="col-12">
+            <div class="copyright">
+              <p>
+                Copyright ©2025 All rights reserved | This template is made
+                with <i class="fa-regular fa-heart"></i> by
+                <span>Colorlib</span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- Footer end -->
+
+  <!-- Javascript link -->
+  <script src="./assets/js/main.js"></script>
+  <script src="./assets/css/bootstrap-5.3.3-dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>
