@@ -1,23 +1,27 @@
-Travelo Website 🌍✈️
-🚀 A modern travel booking website built with HTML, CSS, JavaScript, and Bootstrap.
+<h1 align="center">🌍 Travelo Website ✈️</h1>
 
-✨ Features
-✅ Modern & Clean UI
-✅ Bootstrap-Powered Styling
-✅ Interactive JavaScript Elements
+🚀 A modern travel booking website built with **HTML, CSS, JavaScript, and Bootstrap**.  
 
-🛠️ Technologies Used
-🔹 HTML5, CSS3, JavaScript
-🔹 Bootstrap 5
-🔹 Git & GitHub
+## ✨ Features  
+✅ **Modern & Clean UI**  
+✅ **Bootstrap-Powered Styling**  
+✅ **Interactive JavaScript Elements**  
 
-🚀 Future Improvements
- Make the website fully responsive 📱
+## 🛠️ Technologies Used  
+🔹 **HTML5, CSS3, JavaScript**  
+🔹 **Bootstrap 5**  
+🔹 **Git & GitHub**  
 
- Enhance JavaScript interactivity
+## 🚀 Future Improvements  
+---  
+- [ ] Make the website fully **responsive** 📱  
+- [ ] Enhance **JavaScript interactivity**  
+- [ ] Add **backend with ASP.NET Core**  
 
- Add backend with ASP.NET Core
+## 📬 Contact  
+📧 **miragayevafizze@gmail.com**  
+🌐 **[@Fizze003](https://github.com/Fizze003)**  
 
-📬 Contact
-📧 miragayevafizze@gmail.com
-🌐 @Fizze003
+---
+
+✨ **Star** this repo if you found it useful! ⭐  
