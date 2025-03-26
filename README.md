@@ -11,17 +11,3 @@
 🔹 **HTML5, CSS3, JavaScript**  
 🔹 **Bootstrap 5**  
 🔹 **Git & GitHub**  
-
-## 🚀 Future Improvements  
----  
-- [ ] Make the website fully **responsive** 📱  
-- [ ] Enhance **JavaScript interactivity**  
-- [ ] Add **backend with ASP.NET Core**  
-
-## 📬 Contact  
-📧 **miragayevafizze@gmail.com**  
-🌐 **[@Fizze003](https://github.com/Fizze003)**  
-
----
-
-✨ **Star** this repo if you found it useful! ⭐  
